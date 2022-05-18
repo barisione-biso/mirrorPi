@@ -1,0 +1,12 @@
+{
+ "mirror": [
+	{"from":"user@[remote_ip]:/var/www/html/mywebsite/",
+	"to": "/media/extHD/mywebsite/",
+	"options": "--delete --stats -au --progress --checksum",
+	"active": "true"},
+	{"from":"/home/user/imagenes/example/",
+	"to": "/media/extHD/imagenes/example/",
+	"options": "--delete --stats -au --progress --checksum",
+	"active": "true"}
+	]
+}
